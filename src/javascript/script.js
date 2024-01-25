@@ -29,4 +29,4 @@ resetButton.addEventListener('click', () => {
   updateValue();
 });
 
-document.addEventListener('mouseup', () => clearIntervalId(intervalId));
+document.addEventListener('mouseup', () => clearInterval(intervalId));
